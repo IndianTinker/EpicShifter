@@ -1,3 +1,12 @@
-This is a generic test board for using ULN2803 and 595 Shift Registers.
+This is a generic test board for using ULN2803 and 74HC595 Shift Registers.
 Useful while testing LED Displays or getting used to new micros :D
 
+It has seperate power pins for darlington and shiftregisters.
+
+If you drive an LED Display using it. Use Shift Register for posiive drive
+and ULN2803 for negative drive.
+
+You may need to add pnp transistor for +ve side since the source limit on 595 
+is less. In that case you have to invert logic as well.
+
+Hope its useful
