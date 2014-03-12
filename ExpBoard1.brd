@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -102,10 +102,10 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="-1.27" x2="35.23" y2="-1.27" width="0" layer="20"/>
-<wire x1="35.23" y1="-1.27" x2="35.23" y2="58.41" width="0" layer="20"/>
-<wire x1="35.23" y1="58.41" x2="0" y2="58.41" width="0" layer="20"/>
-<wire x1="0" y1="58.41" x2="0" y2="-1.27" width="0" layer="20"/>
+<wire x1="-6.35" y1="-3.81" x2="39.04" y2="-3.81" width="0" layer="20"/>
+<wire x1="39.04" y1="-3.81" x2="39.04" y2="59.68" width="0" layer="20"/>
+<wire x1="39.04" y1="59.68" x2="-6.35" y2="59.68" width="0" layer="20"/>
+<wire x1="-6.35" y1="59.68" x2="-6.35" y2="-3.81" width="0" layer="20"/>
 <circle x="30.48" y="44.45" radius="0.635" width="0.6096" layer="17"/>
 <circle x="30.48" y="34.29" radius="0.635" width="0.6096" layer="17"/>
 <text x="33.02" y="30.48" size="1.4224" layer="16" ratio="15" rot="MR270">EpicShifter 8x8 Matrix V1</text>
@@ -113,6 +113,10 @@
 <text x="3.81" y="7.62" size="1.778" layer="16" rot="MR270">-</text>
 <text x="3.175" y="3.81" size="1.778" layer="16" rot="MR0">+</text>
 <text x="7.62" y="-1.27" size="2.1844" layer="16" rot="MR0">+</text>
+<circle x="-2.54" y="55.88" radius="1.27" width="1.4224" layer="17"/>
+<circle x="35.56" y="55.88" radius="1.27" width="1.4224" layer="17"/>
+<circle x="35.56" y="0" radius="1.27" width="1.4224" layer="17"/>
+<circle x="-2.54" y="0" radius="1.27" width="1.4224" layer="17"/>
 </plain>
 <libraries>
 <library name="SparkFun">
